@@ -157,6 +157,26 @@
             </div>
         </div>
     </section>
+    <!-- aqui -->
+
+    <section id="contacto" class="contacto animate__animated animate__rotateInUpLeft">
+        <div class="contacto-container">
+            <h2>Contacto</h2>
+            <p>Escríbenos y a la brevedad uno de nuestros asesores te contactará:</p>
+            <form class="contacto-form">
+                <input type="text" placeholder="Nombre" name="nombre" class="contacto-input" required pattern="^[a-zA-ZÀ-ÿ\u00f1\u00d1]+(\s*[a-zA-ZÀ-ÿ\u00f1\u00d1]*)*[a-zA-ZÀ-ÿ\u00f1\u00d1]+$" title="No se aceptan caracteres especiales ni números" />
+                <input type="email" placeholder="Correo" name="email" class="contacto-input" required />
+                <input type="number" id="celular" placeholder="Celular" name="celular" class="contacto-input" min="900000000" max="999999999" required />
+                <textarea type="text" placeholder="Mensaje" name="mensaje" cols="50" rows="10" class="contacto-input" required></textarea> <br>
+
+                <input class="form-submit" type="submit" value="Enviar">
+            </form>
+
+
+
+
+        </div>
+    </section>
 
 </body>
 

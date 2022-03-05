@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Tienda de cactus</title>
+    <title>Kactaceas</title>
 
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://fabriciopizarro.github.io/Cactus-store0.1/" />
@@ -26,39 +26,38 @@
 </head>
 
 <body class="body">
-    <header class="header animate__animated animate__rubberBand">
+
+    <header class="header">
         <nav class="header-nav">
-            <a class="header-nav__logo-container" href="#perfil">
-                <img class="header-nav__logo" src="https://static5.depositphotos.com/1057195/520/i/600/depositphotos_5208324-stock-photo-potted-globe-cactus-isolated-over.jpg" alt="Cactus" />
-            </a>
-
-            <label class="header-nav__menu-icon" for="menu">
-                <i class="fas fa-ellipsis-v"></i>
-                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-half" viewBox="0 0 16 16">
-                <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
-                </svg> -->
+          <a href="#perfil" class="header-nav__logo-container">
+            <img src="https://static5.depositphotos.com/1057195/520/i/600/depositphotos_5208324-stock-photo-potted-globe-cactus-isolated-over.jpg"" alt="Logo Elliot Garamendi" class="header-nav__logo" />
+          </a>
+          <label for="menu" class="header-nav__icon-container">
+                <i class="header-nav__icon fas fa-ellipsis-v"></i>
             </label>
-            <input class="header-nav__menu-checkbox" type="checkbox" name="menu" id="menu" />
-
-            <ul class="header-nav__link-list">
-                <li class="header-nav__link-item">
-                    <a class="header-nav__link" href="#Inicio">Inicio</a>
-                </li>
-                <li class="header-nav__link-item">
-                    <a class="header-nav__link" href="#Elijeeltuyo">Elije el tuyo</a>
-                </li>
-                <li class="header-nav__link-item">
-                    <a class="header-nav__link" href="#saber ">Saber más sobre los cactus </a>
-                </li>
-                <li class="header-nav__link-item">
-                    <a class="header-nav__link" href="#contacto">Contacto</a>
-                </li>
-            </ul>
+          <input type="checkbox" name="menu" id="menu" class="header-nav__checkbox" />
+          <ul class="header-nav__list">
+            <li class="header-nav__item">
+              <a href="#Elijeeltuyo" class="header-nav__link">Elije el tuyo</a>
+            </li>
+            <li class="header-nav__link-item">
+              <a href="#Informacion" class="header-nav__link">Información</a>
+            </li>
+            <li class="header-nav__link-item">
+              <a href="#Contacto" class="header-nav__link">Contacto</a>
+            </li>
+            <!-- <li class="header-nav__link-item">
+              <a href="#" class="header-nav__link"></a>
+            </li> -->
+          </ul>
         </nav>
-    </header>
+      </header>
+
+
+
     <main id="Inicio" class="main-contenedor">
         <div class="main-contenedor-texto">
-            <h1 class="main-texto animate__animated animate__swing">Tienda de cactus</h1>
+            <h1 class="main-texto animate__animated animate__swing">Kactaceas</h1>
         </div>
         <img class="main-img animate__animated animate__backInUp" src="https://static01.nyt.com/images/2021/05/20/science/20SCI-CACTUSTHIEVES5-esp-3/20SCI-CACTUSTHIEVES5-facebookJumbo.jpg" alt="cactus">
     </main>
@@ -158,7 +157,7 @@
         </div>
     </section>
 
-    <section id="saber" class="animate__animated animate__flipInX">
+    <section id="Informacion" class="animate__animated animate__flipInX">
         <h2>Todo lo que deber saber sobre los cactus</h2>
         <table class="informacion">
             <thead>
@@ -172,7 +171,7 @@
                     <td class="informacion-td">Los cactus conforman la familia de plantas suculentas denominada Cactaceae. Estas especies, como buenas crasas que son, se caracterizan por acumular agua y nutrientes en sus tejidos, así, pueden adaptarse sin problema al hábitat en
                         el que se encuentren. Gracias a ello, pueden sobrevivir en terrenos áridos y secos.</td>
                     <td class="informacion-td">Las flores son solitarias y en su mayoría hermafroditas. Los periantos están formados por numerosos tépalos colocados en espiral. Los frutos suelen ser indehiscentes, en forma de baya y rara vez secos. Los cactus son perfectos para
-                        decoración interior del hogar, sobre todo aquellas variedades que por su origen no sobrevivirían a la intemperie. Y no solo eso, además, pueden plantarse para formar parte de la ornamentación exterior.</td>
+                        decoración interior del hogar, sobre todo aquellas variedades que por su origen no sobrevivirían a la intemperie.</td>
                 </tr>
             </tbody>
             <thead>
@@ -194,7 +193,7 @@
 
     <!-- aqui -->
 
-    <section id="contacto" class="contacto animate__animated animate__rotateInUpLeft">
+    <section id="Contacto" class="contacto animate__animated animate__rotateInUpLeft">
         <div class="contacto-container">
             <h2>Contacto</h2>
             <p>Escríbenos y a la brevedad uno de nuestros asesores te contactará:</p>
